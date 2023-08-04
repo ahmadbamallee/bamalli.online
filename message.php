@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <li><a href="resume.html">Resume</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="skills.html">Skills</a></li>
-        <li><a href="message.html">Send Me Message</a></li>
+        <li><a href="message.php">Send Me Message</a></li>
       </ul>
     </div>
   </nav>
