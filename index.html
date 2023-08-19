@@ -9,6 +9,7 @@
     rel="stylesheet"
   />
   <link rel="stylesheet" href="styles/message.css">
+  <link rel="stylesheet" href="styles/message.css">
   <link rel="stylesheet" href="styles/style.css" />
   <link rel="shortcut icon" href="assets/logo/icon.PNG" type="image/x-icon">
   <title>My Profile</title>
@@ -53,6 +54,18 @@
       </div>
     </div>
   </section>
+
+  <div class="message" style="background-image: url(assets/background/myphoto.JPG);">
+    <h5>SEND ME A MESSAGE</h5><br>
+    <form class="message-form" action="https://formspree.io/f/mvojagzg" method="post">
+      <input class="in" type="text" name="message-name" id="subject" placeholder="Enter Your Name" required> <br><br>
+      <input class="in" type="text" name="message-subject" id="subject" placeholder="Message Subject" required> <br><br>
+      <input class="mail" type="email" name="email" placeholder="example@gmail.com" required><br><br>
+      <textarea class="t-area" name="message-body" placeholder="Your Message" id="message-body" cols="30" rows="10" required></textarea> <br>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+    
+  </div>
   
   <footer class="footer">
     &copy; 2023 Designed by Ahmad Bamalli
