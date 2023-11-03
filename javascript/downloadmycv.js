@@ -1,5 +1,5 @@
 function downloadFile() {
-    const cvUrl = "assets/mycv/cv.pdf";
+    const cvUrl = "assets/mycv/Ahmad_Abubakar_CV.pdf";
     const link = document.createElement("a");
     link.href = cvUrl;
     link.download = "cv.pdf";
