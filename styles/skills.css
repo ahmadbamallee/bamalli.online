@@ -1,6 +1,6 @@
 body{
-    padding: 8%;
-    margin: 5%;
+    padding: 1%;
+    margin: 0 auto;
 }
 p{
     text-align: center;
@@ -38,11 +38,13 @@ p{
     height: 10px;
     background-color: #c5c1c1;
     position: relative;
+    border-radius: 10px;
   }
   
   .progress {
     height: 100%;
-    background-color: blueviolet;
+    border-radius: 10px;
+    background: linear-gradient(to right, blue, violet);
   }
   
   .progress-percent {
@@ -65,12 +67,9 @@ p{
     color: blueviolet;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 3%;
-    padding-left: 5%;
+    padding-left: 0;
   }
   
   span {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  
-  /* Add any additional styling as needed */
-  
