@@ -30,7 +30,8 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: #e7e1fb;
+  border-radius: 25px;
   z-index: 99;
 }
 
