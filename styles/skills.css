@@ -1,3 +1,14 @@
+:root {
+  --primary-color: #a855f7;
+  --primary-color-dark: #9333ea;
+  --secondary-color: #c91414;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #faf5ff;
+  --max-width: 1200px;
+  --box-shadow: 5px 5px 15px #c1c8d3, -5px -5px 15px #ffffff;
+}
+
 body{
     padding: 1%;
     margin: 0 auto;
@@ -39,6 +50,7 @@ p{
     background-color: #c5c1c1;
     position: relative;
     border-radius: 10px;
+    box-shadow: var(--box-shadow);
   }
   
   .progress {
