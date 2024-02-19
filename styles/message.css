@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #a855f7;
+    --primary-color-dark: #9333ea;
+    --secondary-color: #c91414;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --extra-light: #faf5ff;
+    --box-shadow: 5px 5px 15px #c1c8d3, -5px -5px 15px #ffffff;
+    --max-width: 1200px;
+}
+h5{
+    text-align: center;
+    font-size: larger;
+    color: blueviolet;
+}
+.message{
+    margin: 5%;
+    padding: 10%;
+   
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.in{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(201, 233, 236);
+}
+.in:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.btn{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(68, 161, 130);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.btn:hover{
+    background-color: rgb(191, 229, 216);
+    color: black;
+}
+
+.t-area{
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    color:rgb(153, 95, 207);
+    background-color: rgb(207, 204, 204);
+}
+
+.mail{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(201, 233, 236);
+}
+.mail:hover{
+    background-color: aliceblue;
+    color: black;
+}

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color: #a855f7;
+  --primary-color-dark: #9333ea;
+  --secondary-color: #c91414;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #faf5ff;
+  --max-width: 1200px;
+  --box-shadow: 5px 5px 15px #c1c8d3, -5px -5px 15px #ffffff;
+}
+
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+}
+.pem{
+  color:black;
+}
+.skills {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 9px;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .skills h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .skills-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 5%;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background-color: #c5c1c1;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .progress {
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to right, blue, violet);
+    
+  }
+  
+  .progress-percent {
+    position: absolute;
+    top: -18px;
+    right: 0;
+  }
+  
+  .skill-header {
+    margin-bottom: 20px;
+    padding-top: 10%;
+  }
+  
+  .skill-header ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .skill-header li {
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 3%;
+    padding-left: 0;
+  }
+  
+  span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }

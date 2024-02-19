@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color: #a855f7;
+  --primary-color-dark: #9333ea;
+  --secondary-color: #c91414;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #faf5ff;
+  --box-shadow: 5px 5px 15px #c1c8d3, -5px -5px 15px #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to left, #e1cff2, #9222ea);
+  box-shadow: var(--box-shadow);
+  border-radius: 25px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.nav__content {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #e1cff2;;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+nav .logo a:hover {
+  color: var(--primary-color-dark);
+}
+
+nav .checkbox {
+  display: none;
+}
+
+nav input {
+  display: none;
+}
+nav .checkbox i {
+  font-size: 2rem;
+  color: #7917c4;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  transition: left 0.3s;
+}
+
+ul li a {
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--text-dark);
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  border-top-color: var(--secondary-color);
+  border-bottom-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.section {
+  background-image: url('assets/background/myphoto.JPG');
+}
+
+.section__container {
+  min-height: 100vh;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subtitle {
+  letter-spacing: 2px;
+  color: var(--text-light);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.title span {
+  font-weight: 600;
+}
+
+.description {
+  line-height: 1.5rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+.action__btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.action__btns button {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.Contact {
+  background-color: var(--primary-color);
+  color:var(--extra-light);
+  box-shadow: var(--box-shadow);
+}
+
+.Contact:hover {
+  background-color: var(--extra-light);
+  color: #9333ea;
+  box-shadow: 0px 0px 25px black;
+}
+
+.Resume {
+  color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.Resume:hover {
+  background-color: var(--primary-color-dark);
+  color: var(--extra-light);
+  box-shadow: 0px 0px 25px black;
+}
+
+.image {
+  display: grid;
+  place-items: center;
+  background-image: url('assets/background/myphoto.JPG');
+}
+
+.image img {
+  height: 330px;
+  width: min(20rem, 280px);
+  border-radius: 10% 30%;
+  box-shadow: 0px 0px 24px black;
+}
+
+@media (max-width: 750px) {
+  nav .checkbox {
+    display: block;
+  }
+
+  ul {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 85px);
+    left: -100%;
+    top: 85px;
+    background-color: var(--extra-light);
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  nav #check:checked ~ ul {
+    left: 0;
+  }
+
+  ul li a {
+    font-size: 1.25rem;
+  }
+
+  .section__container {
+    padding: 10rem 1rem 5rem 1rem;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .image {
+    grid-area: 1/1/2/2;
+  }
+
+  .action__btns {
+    margin: auto;
+  }
+}
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 5%;
+}
+/*
+new header style css
+*/
+header {
+  position: fixed;
+  top: 2%;
+  width: calc(100% - 100px);
+  padding: 10px;
+  width: 100%;
+  border-bottom: 1px solid #dce1e4;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background: linear-gradient(to left, #b16bf1, #dac0f3); 
+  z-index: 1;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+header .logo img {
+  height: 50px;
+  cursor: pointer;
+}
+
+header ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  height: 100%;
+  gap: 1rem;
+  justify-content: end;
+  align-items: center;
+}
+
+header ul li {
+  padding: 0 30px;
+}
+
+header .navDiv,
+header .nav label,
+header input {
+  display: none;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  header .navDiv {
+      display: flex;
+      justify-content: end;
+  }
+
+  header label {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      box-shadow: var(--box-shadow);
+      border-radius: 50%;
+  }
+
+  header .nav {
+      position: fixed;
+      background: linear-gradient(to right, #b16bf1, #dac0f3);
+      border-radius:25px;
+      box-shadow: var(--box-shadow);
+      z-index: 1;
+      width: 70%;
+      height: 100vh;
+      left: 0;
+      top: 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(5, 70px);
+      transform: translateX(-100%);
+      transition: 0.5s;
+  }
+
+  input#menu:checked ~ .nav {
+      transform: translateX(0%);
+  }
+
+  header .nav label {
+      width: 50px;
+      height: 50px;
+      box-shadow: var(--box-shadow);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      color: white;
+  }
+}
+#dynamicText {
+  background-image: linear-gradient(-45deg, #7913d8, #cb436e);
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent; 
+  background-size: 200% 100%; 
+  animation: gradientTransition 2s infinite; 
+}
+
+@keyframes gradientTransition {
+  0% {
+      background-position: 100% 0;
+  }
+  100% {
+      background-position: -100% 0;
+  }
+}
+

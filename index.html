@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+	<script
+      src="https://kit.fontawesome.com/ba1223f8eb.js"
+      crossorigin="anonymous"
+    ></script>
+  <link rel="stylesheet" href="styles/message.css">
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/photogallery.css">
+  <script src="javascript/herodynamic.js"></script>
+  <link rel="shortcut icon" href="assets/logo/newfav.PNG" type="image/x-icon">
+  <title>Ahmad Bamallee</title>
+	<!-- Google Analytics tracking code -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TE74HWK518"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-TE74HWK518");
+    </script>
+	<!-- End Google Analytics tracking code -->
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="assets/logo/logo4.PNG">
+    </div>
+   <div class="navDiv">
+    <label for="menu">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+   </div>
+    <input type="checkbox" id="menu">
+    <ul class="nav">
+        
+        <label for="menu">
+            <i class="fa-solid fa-xmark"></i>
+        </label>
+        <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="service.html">Services</a></li>
+    </ul>
+</header>
+  <section class="section">
+    <div class="section__container">
+      <div class="content">
+        <p class="subtitle">HELLO</p>
+        <h1 class="title">
+            I'm <span>Ahmad<br />a </span><span id="dynamicText"> Programmer.</span>
+        </h1>
+
+        <p class="description">
+        </p>
+        <div class="action__btns">
+          <a href="skills.html">
+            <button class="Contact">Skills</button>
+          </a>
+          <a href="resume.html">
+            <button class="Resume">Resume</button>
+          </a>
+        </div>
+      </div>
+      <div class="image">
+        <img src="assets/photo.JPG" alt="profile" />
+      </div>
+    </div>
+  </section>
+
+  <!--photogallery------------------->
+<section id="photogallery">
+	<!--heading----------->
+	<h1 class="p-headind">Photo Gallery</h1>
+	<!--photogallery-container------------>
+	<div class="p-container">
+	<!--photogallery-box-1-------->
+	<div class="p-box">
+	<!--text--------->
+	<div class="overlay-text">
+	<h1>Writting</h1>
+	<p>Ahmad Bamalli</p>	
+	</div>
+	<!--bg-img------------->
+	<img src="assets/photos/ahmad1.JPG">
+		
+	</div>
+	<!--photogallery-box-2-------->
+	<div class="p-box">
+		<!--text--------->
+	<div class="overlay-text">
+	<h1>Ideas</h1>
+	<p>Ahmad Bamalli</p>	
+	</div>
+	<!--bg-img------------->
+	<img src="assets/photos/ahmad2.JPG">
+	</div>
+	<!--photogallery-box-3-------->
+	<div class="p-box">
+	<!--text--------->
+	<div class="overlay-text">
+	<h1>Music</h1>
+	<p>Ahmad Bamalli</p>	
+	</div>
+	<!--bg-img------------->
+	<img src="assets/photos/ahmad3.JPG">
+	</div>
+	<!--photogallery-box-4-------->
+	<div class="p-box">
+	<!--text--------->
+	<div class="overlay-text">
+	<h1>Time</h1>
+	<p>Ahmad Bamalli</p>	
+	</div>
+	<!--bg-img------------->	
+	<img src="assets/photos/ahmad4.JPG">
+	</div>
+	<!--photogallery-box-5-------->
+	<div class="p-box">
+	<!--text--------->
+	<div class="overlay-text">
+	<h1>Creative</h1>
+	<p>Ahmad Bamalli</p>	
+	</div>
+	<!--bg-img------------->	
+	<img src="assets/photos/ahmad5.JPG">
+	</div>
+	<!--photogallery-box-6-------->
+	<div class="p-box">
+	<!--text--------->
+	<div class="overlay-text">
+	<h1>Books</h1>
+	<p>Ahmad Bamalli</p>	
+	</div>
+	<!--bg-img------------->	
+	<img src="assets/photos/ahmad6.JPG">
+	</div>
+		
+	</div>
+	</section>
+
+  <div class="message">
+    <h5>SEND ME A MESSAGE</h5><br>
+    <form class="message-form" action="" target="_blank" method="post">
+      <input class="in" type="text" name="message-name" id="subject" placeholder="Enter Your Name" required> <br><br>
+      <input class="in" type="text" name="message-subject" id="subject" placeholder="Message Subject" required> <br><br>
+      <input class="mail" type="email" name="email" placeholder="example@gmail.com" required><br><br>
+      <textarea class="t-area" name="message-body" placeholder="Your Message" id="message-body" cols="30" rows="10" required></textarea> <br>
+      <button class="btn" type="submit">Send Message</button>
+
+       <script src="javascript/sendform.js"></script>
+    </form>
+    
+  </div>
+  
+  <footer class="footer">
+    &copy; <script>document.write(new Date().getFullYear())</script> Designed by Ahmad Bamalli
+  </footer>
+</body>
+</html>
