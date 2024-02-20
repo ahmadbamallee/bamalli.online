@@ -60,17 +60,15 @@
     border-radius: 20px;
 }
 
-@media only screen and (max-width:1024px) {
-    .listservices{
+@media only screen and (max-width: 1024px) {
+    .listservices {
         grid-template-columns: repeat(2, 1fr);
     }
-   
 }
-@media screen and (max-width: 767px){
-    .listSkill{
-        grid-template-columns: 1fr;
-    }
-    .listservices{
+
+@media screen and (max-width: 767px) {
+    .listSkill,
+    .listservices {
         grid-template-columns: 1fr;
     }
 }
