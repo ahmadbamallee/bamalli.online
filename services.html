@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Bamallee</title>
+    <link rel="shortcut icon" href="assets/logo/newfav.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+          <img src="assets/logo/logo4.PNG">
+        </div>
+       <div class="navDiv">
+        <label for="menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+       </div>
+        <input type="checkbox" id="menu">
+        <ul class="nav">
+            
+            <label for="menu">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="resume.html">Resume</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="services.html">Services</a></li>
+        </ul>
+    </header>
+    <div id="services">
+        <h1 class="title">services</h1>
+        <div class="listservices">
+            <div class="item">
+                
+                <img src="assets/icons/frontend.png" alt="">
+                <div class="name">
+                    Frontend Developer
+                </div>
+            </div>
+            <div class="item">
+                
+                <img src="assets/icons/backend.jpeg" alt="">
+                <div class="name">
+                    Backend Developer
+                </div>
+            </div>
+            <div class="item">
+                
+                <img src="assets/icons/appdev.png" alt="">
+                <div class="name">
+                    App Developer
+                </div>
+            </div>
+            <div class="item">
+                
+                <img src="assets/icons/Web_Design.jpeg" alt="">
+                <div class="name">
+                    Web Designer
+                </div>
+            </div>
+            <div class="item">
+                
+                <img src="assets/icons/uxui.png" alt="">
+                <div class="name">
+                    UXUI Designer
+                </div>
+            </div>
+        </div>
+   </div>
+   <footer>
+    <div class="footer-content">
+     <center> <p>© Ahmad Bamalli <span id="year"></span>. All rights reserved.</p> </center>
+    </div>
+  </footer>
+  <script>
+    let year = new Date().getFullYear();
+    let yearSpan = document.getElementById("year");
+    yearSpan.textContent = year;
+  </script>
+   </body>
+   </html>
