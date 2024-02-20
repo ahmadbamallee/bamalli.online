@@ -18,7 +18,7 @@
 .listSkill{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px 20px;
+    gap: 30px 30px;
     border-bottom: 1px solid #dce1e4;
     padding-bottom: 50px;
 }
