@@ -66,10 +66,16 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 750px) {
     .listSkill,
     .listservices {
         grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 750px) {
+    header .navDiv {
+        display: flex;
+        justify-content: end;
     }
 }
 .listservices .s-type{
