@@ -213,6 +213,7 @@ header input{
 .listservices .item img{
     width: 90%;
     border-radius: 20px;
+    box-shadow: var(--box-shadow);
 }
 .listservices .item{
     text-align: center;
