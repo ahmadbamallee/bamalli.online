@@ -8,6 +8,7 @@
             "[Web Developer]",
             "[App Developer]",
             "[Cyber-Analyst]",
+            "[Data-Analyst]",
             "[UXUI-Designer]",
         ];
 
